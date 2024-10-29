@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckIcon from '../assets/checkIcon.jsx'
+import CheckIcon from '../assets/CheckIcon.jsx'
 
 const PricingPlans = () => {
   return (
