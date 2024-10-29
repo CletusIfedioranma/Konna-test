@@ -1,7 +1,7 @@
 import React from 'react'
 import apple from '../assets/apple.svg'
 import google from '../assets/google.svg'
-import window from "../assets/window.svg"
+import window from "../assets/windows.svg"
 
 const CallToAction = () => {
   return (
