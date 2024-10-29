@@ -1,4 +1,5 @@
 import React from 'react'
+import tick from '../assets/icon1.svg'
 
 const Plans = () => {
   return (
@@ -8,7 +9,7 @@ const Plans = () => {
             <h2 className="text-center text-3xl font-bold text-orange-400 mb-8">Free Plan</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className='flex gap-2'>
-                <img src="src/assets/icon1.svg" alt="" className='rounded-full w-10 h-10' />
+                <img src={tick} alt="" className='rounded-full w-10 h-10' />
                 <div>
                   <h3 className="text-2xl font-semibold">Periodic Report Summary</h3>
                   <p className="text-gray-400">Receive a monthly summary of essential business reports.</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import refImg from '../assets/refer.svg'
 
 const Refer = () => {
   return (
@@ -9,7 +10,7 @@ const Refer = () => {
             <p className="text-gray-500 mt-3 text-xl font-medium">Refer a friend to open a shop at Konna and enjoy one-month<br/> free subscription fee</p>
             <p className='text-blue-700 cursor-pointer w-[300px] mt-3 py-2 bg-slate-800 text-center text-[18px]'>Refer a Friend</p>
         </div>
-        <img src="src/assets/refer.svg" className='w-80 h-80' />
+        <img src={refImg} className='w-80 h-80' />
     </section>
   )
 }

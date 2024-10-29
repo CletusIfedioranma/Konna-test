@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../assets/image1.svg'
 
 const Testimonials = () => {
   return (
@@ -11,7 +12,7 @@ const Testimonials = () => {
       <div className='flex justify-between w-full gap-8 mt-10'>
         <div className='bg-slate-900 p-3'>
           <div className='flex gap-3'>
-            <img src="src/assets/image1.svg" alt="" className='rounded-full w-12 h-12' />
+            <img src={img1} alt="" className='rounded-full w-12 h-12' />
             <div className='grid text-left'>
               <p className='font-semibold'>Crunch network Solution</p>
               <p className='text-blue-600'>Crunch Network</p> 
@@ -21,7 +22,7 @@ const Testimonials = () => {
         </div>
         <div className='bg-slate-900 p-3'>
           <div className='flex gap-3'>
-            <img src="src/assets/image1.svg" alt="" className='rounded-full w-12 h-12' />
+            <img src={img1} alt="" className='rounded-full w-12 h-12' />
             <div className='grid text-left'>
               <p className='font-semibold'>Crunch network Solution</p>
               <p className='text-blue-600'>Crunch Network</p> 
@@ -31,7 +32,7 @@ const Testimonials = () => {
         </div>
         <div className='bg-slate-900 p-3'>
           <div className='flex gap-3'>
-            <img src="src/assets/image1.svg" alt="" className='rounded-full w-12 h-12' />
+            <img src={img1} alt="" className='rounded-full w-12 h-12' />
             <div className='grid text-left'>
               <p className='font-semibold'>Crunch network Solution</p>
               <p className='text-blue-600'>Crunch Network</p> 

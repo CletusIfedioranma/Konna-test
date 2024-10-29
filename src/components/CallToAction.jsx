@@ -1,4 +1,7 @@
 import React from 'react'
+import apple from '../assets/apple.svg'
+import google from '../assets/google.svg'
+import window from "../assets/window.svg"
 
 const CallToAction = () => {
   return (
@@ -10,7 +13,7 @@ const CallToAction = () => {
         <div className="flex justify-center space-x-4">
             {/* Google Play */}
             <a href="#" className="flex gap-2 items-center bg-transparent text-white px-6 py-2 rounded-full border-2 border-white">
-            <img src="src/assets/google.svg" alt="" className='w-8 h-8'/>
+            <img src={google} alt="" className='w-8 h-8'/>
             <div className='grid text-start'>
                 <p className='text-xs'>GET IT ON</p>
                 <p>Google Play</p>
@@ -18,7 +21,7 @@ const CallToAction = () => {
             </a>
             {/* Mac App Store */}
             <a href="#" className="flex gap-2 items-center bg-transparent text-white px-6 py-2 rounded-full border-2 border-white">
-            <img src="src/assets/apple.svg " alt="" className='w-8 h-8'/>
+            <img src={apple} alt="" className='w-8 h-8'/>
             <div className='grid text-start'>
                 <p className='text-xs'>Download on the </p>
                 <p>Mac App Store</p>
@@ -26,7 +29,7 @@ const CallToAction = () => {
             </a>
             {/* App Store */}
             <a href="#" className="flex gap-2 items-center bg-transparent text-white px-6 py-2 rounded-full border-2 border-white">
-            <img src="src/assets/apple.svg " alt="" className='w-8 h-8'/>
+            <img src={apple} alt="" className='w-8 h-8'/>
             <div  className='grid text-start'>
                 <p className='text-xs'>Download on the</p>
                 <p>App Store</p>
@@ -34,7 +37,7 @@ const CallToAction = () => {
             </a>
             {/* Windows Store */}
             <a href="#" className="flex gap-2 items-center bg-transparent text-white px-6 py-2 rounded-full border-2 border-white">
-            <img src="src/assets/windows.svg" alt="" className='w-8 h-8'/>
+            <img src={window} alt="" className='w-8 h-8'/>
             <div  className='grid text-start'>
                 <p className='text-xs'>Get its on</p>
                 <p>Windows</p>
